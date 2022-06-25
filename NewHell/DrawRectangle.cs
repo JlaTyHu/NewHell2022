@@ -13,6 +13,8 @@
             // new change 1.
 >>>>>>> Change1
 
+            // commit to main!
+
             string paintSymbolSingl = "@";
 
             Console.Write("Input height = ");
