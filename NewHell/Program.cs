@@ -8,6 +8,8 @@
             BusinessComputerGamesManagement businessComputerGamesManagement = new BusinessComputerGamesManagement();
 
             businessComputerGamesManagement.SetGameData();
+
+            //Hello world!
         }
     }
 }
