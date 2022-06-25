@@ -7,6 +7,8 @@
     {
         public static void DrawRectangleExtension()
         {
+            var isGitHun = "Hello , github!";
+
             string paintSymbolSingl = "@";
 
             Console.Write("Input height = ");
