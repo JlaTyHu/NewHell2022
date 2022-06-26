@@ -3,7 +3,6 @@
     using NewHell.Entities;
     using NewHell.Validations;
     using System;
-
     internal class BusinessComputerGamesManagement
     {
         public Game[] games;
@@ -13,9 +12,7 @@
             DrawRectangle.DrawRectangleExtension();
 
             Console.WriteLine("\nMake youre choice: ");
-
             TaskBorder();
-
             int userChoice = Int32.Parse(Console.ReadLine());
 
             Game game1 = new Game

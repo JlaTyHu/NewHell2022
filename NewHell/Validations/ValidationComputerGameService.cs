@@ -1,7 +1,6 @@
 ﻿namespace NewHell.Validations
 {
     using System;
-
     internal static class ValidationComputerGameService
     {
         public static string ValidationGameId(string gameId)

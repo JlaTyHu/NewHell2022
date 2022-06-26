@@ -2,7 +2,6 @@
 {
     using System;
     using NewHell.Validations;
-
     public static class DrawRectangle
     {
         public static void DrawRectangleExtension()
