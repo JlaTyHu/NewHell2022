@@ -10,6 +10,8 @@
 
         public void SetGameData()
         {
+            // aoeoi5245f824gh5
+            
             DrawRectangle.DrawRectangleExtension();
 
             Console.WriteLine("\nMake youre choice: ");
