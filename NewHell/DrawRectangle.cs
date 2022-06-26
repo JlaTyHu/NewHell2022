@@ -8,7 +8,7 @@
         {
             string paintSymbolSingl = "@";
 
-            Console.Write("Please, input height = ");
+            Console.Write("Input height = ");
             int userInputHeight = ValidationDrawRectangle.ValidationGetUserInputHeight(Int32.Parse(Console.ReadLine()));
           
             Console.Write("Please, input wight = ");
