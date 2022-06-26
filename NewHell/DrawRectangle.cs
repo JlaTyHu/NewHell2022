@@ -9,16 +9,13 @@
         {
             string paintSymbolSingl = "@";
 
-            Console.Write("Input height = ");
-
+            Console.Write("Please, input height = ");
             int userInputHeight = ValidationDrawRectangle.ValidationGetUserInputHeight(Int32.Parse(Console.ReadLine()));
           
-            Console.Write("Input wight = ");
-
+            Console.Write("Please, input wight = ");
             int userInputWidth = ValidationDrawRectangle.ValidationGetUserInputWidth(Int32.Parse(Console.ReadLine()));
 
             string paintSymbol = CheckSymbols(userInputWidth);
-
             string emptySpace = CheckEmptySpace(userInputWidth);
 
             string[] paint = new string[userInputHeight];
